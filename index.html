@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=z, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+<div class="body" >
+    <div class="con"id="body">
+        <div class="load">
+    
+    
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuemin="0" aria-valuemax="100" id="first">
+  <div class="progress-bar" id="firstBar" style="width: 0%"></div>
+</div>
+
+
+
+    </div>
+    <div class="card-items" id="items">
+        <div class="item-1"><h4>nike shirt</h4><h5 class="p">30$</h5></div>
+        <div class="item-2"><h4>jeans short</h4>20$</div>
+        <div class="next" id="next"><button>Next</button></div>
+        <div class="back" id="back"><button>Close</button></div>
+
+
+    </div>
+        <div class="form" id="form">
+            
+            <input type="text" placeholder="Name"id="name">
+            <div class="error" id="nameError"></div>
+            <input type="email" placeholder="Email" id="email">
+            <div class="error" id="emailError"></div>
+            <input type="number" placeholder="Mobile number" id="phone">
+            <div class="error" id="phoneError"></div>
+            <input type="text" placeholder="Address" id="address">
+            <div class="error" id="addresserror"></div>
+            <input type="text" placeholder="####-####-####-####" id="cardnum" >
+            <div class="error" id="cardnumcheck"></div>
+            <button id="next2"class="next2">Next</button><br>
+            <button class="back2" id="b2"onclick=backmain()>back</button>
+
+
+
+        </div>
+        
+        <div class="final" id="final">
+ 
+    <h5>Awesome</h5>
+    <div class="details">
+        <div id="Lname">Name:</div>  
+        <div class="Lphone">Phone:</div>
+       <div class="Laddress">Address</div>
+        <div class="Lcard">Credit card</div>
+    </div>
+    <div class="card-itemss">
+        <div class="item-01"><h4>Nike Shirt</h4><h5>30$</h5></div>
+        <div class="item-02"><h4>Jeans Short</h4><h5>20$</h5></div>
+        <div class="delivery">You will receive it as soon as possible</div>
+
+         <button id="confirmBtn" class="confirmBtn">Confirm Order</button>
+         <div id="popup" class="popup">
+  <div class="popup-content">
+    <p> Your order has been confirmed successfully!</p>
+    <button id="closePopup" onclick="closecard()">OK</button>
+  </div>
+</div>
+    </div>
+
+
+    
+        
+
+
+    </div>
+
+     
+    
+
+
+
+
+        </div>
+
+
+
+</div>
+    
+</body>
+</html>
+<script src="main.js"></script>
